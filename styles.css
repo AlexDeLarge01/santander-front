@@ -19,7 +19,7 @@ button{
 }
 .fixed-header{
     position: fixed;
-    background-color: white;
+    background-color: #fffbf7;
     top: 0;
     left: 0;
     right: 0;
@@ -39,21 +39,23 @@ button{
 }
 .navbar{
     width: 70%;
-    text-align: center;
+    text-align: left;
     color: #025157;
 }
-li{
-    display: inline;
+
+.navbar li{
     margin-left: 25px;
     margin-right: 25px;
+    display: inline;
 }
 .actions > * {
     margin-right: 10px;
     margin-left: 10px;
   }  
-.actions{
+.actions {
     width: 15%;
-    text-align: center;
+    text-align: left;
+    font-weight: 600;
     font-size: 14px;
 }
 .actions a{
