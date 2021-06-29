@@ -114,7 +114,7 @@ button{
 .contenedor {
     background: #a1d683;
     display: flex;
-    flex-flow: column wrap;
+    /*flex-flow: column wrap;*/
     align-items: center;
     justify-content: space-around;
     flex: 1 1 70%;
@@ -130,7 +130,7 @@ button{
     line-height: 61px;
     font-weight: bold;
 }
-.derecha > p{
+.derecha  > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #343434;
     font-size: 18px;
@@ -143,13 +143,12 @@ button{
 
 }
 .itemcon {
-   
+  
     background:#fff;
     border-radius: 2%;
-    flex:1 1 30% ; 
     margin-right: 30px;
 }
-.itemcon > p{
+.itemcon  p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #343434;
     font-size: 22px;
