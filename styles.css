@@ -114,14 +114,13 @@ button{
 .contenedor {
     background: #a1d683;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
     flex: 1 1 70%;
     margin: 0px auto;
-    padding: 50px ;
-    height: 800px;
-    width: 1350px;
+    /*padding: 50px ;*/
+  
     
 }
 .derecha > h2{
@@ -148,9 +147,7 @@ button{
     background:#fff;
     border-radius: 2%;
     flex:1 1 30% ; 
-    
-  
-
+    margin-right: 30px;
 }
 .itemcon > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -162,12 +159,13 @@ button{
     
  width: 500px;
   height: auto;
+  /*width: 100%;*/
 
     
 }
-.izquierda > .imagen{
+.itemcon > img{
     width: 100%;
-   height: auto;
+  
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
 }
