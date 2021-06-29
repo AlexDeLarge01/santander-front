@@ -16,7 +16,7 @@ button{
     padding: 12px 14px 12px 14px;
     text-align: center;
 }
-.body{
+.html{
     background-color: #9ba0ad; 
 } 
 .logo {
@@ -84,6 +84,7 @@ button{
     width: 70%;
     margin: 100px auto;
     align-items: center;
+    background: red;
 }
 .texto  h2{
     font-family: 'Times New Roman', Times, serif;
@@ -111,143 +112,49 @@ button{
     margin-top: 10px;
 }
  
+
+
+
+
+
 .contenedor {
     background: #a1d683;
     display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
+    flex-flow: row wrap;
     justify-content: space-around;
-    flex: 1 1 70%;
+    align-items: flex-start;
     margin: 0px auto;
-    padding: 50px ;
-    height: 800px;
-    width: 1350px;
-    
 }
-.derecha > h2{
+.izq > h2{
     font-family: "Alegreya", serif;
     color: #025157 ;
     font-size: 51px;
     line-height: 61px;
-    font-weight: bold;
+    font-weight: bolder;
 }
-.derecha > p{
+.izq > p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #343434;
+    color: red;
     font-size: 18px;
     line-height: 1.5;
 }
-.derecha {
-    padding: 10%;
-
-    /*padding: 30px 300px 20px 200px;*/
-
+.izq{
+    flex-grow: 1;
+    background: #343434;
+    border: 4px solid red;
 }
-.itemcon {
-   
-    background:#fff;
+
+.der{
+    flex-grow: 1;
+    background: #fff;
     border-radius: 2%;
-    flex:1 1 30% ; 
-    
-  
-
-}
-.itemcon > p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #343434;
-    font-size: 22px;
-    line-height: 1.5;
-}
-.imagen {
-    
- width: 500px;
-  height: auto;
-
     
 }
-.izquierda > .imagen{
-    width: 100%;
-   height: auto;
-   border-top-left-radius: 10px;
-   border-top-right-radius: 10px;
+.dertext{
+    background: #fff;
+   
 }
 
-
-
-
-
-
-
-
-/*----------------------Reto 4 sesion 4-------------------------*/
-.features{
-    display: grid;
-   /* grid-template-columns: 300px 300px;*/
-    grid-template-columns: repeat(3, 330px) / repeat(2, 1fr);
-   /*grid-template-columns: 500px 1fr; */
-   /*grid-template-columns: 1fr 1fr;*/
-   background: #025157;
-   padding: 5% 10%;
-}
-.feature-art{
-    background-color: #fff;
-    margin: 100px;
-    width: 95%;
-    height: 95%;
-}
-
-/** dispositivos móviles en vista viewport (vertical) */
-@media (max-width: 575px) {
-    .navbar, .actions{
-        display: none; 
-    } 
-    h1{
-        font-size: 30px;
-    }
-    main{
-        margin-top: 130px;
-    }
-        /** Media queries previos al banner **/
-    .banner > img {
-        
-          width: 100%;
-    }
-    .publish > form{
-        flex-direction: column;
-        text-align: center;
-    }
-    .promo{
-        flex-direction: column;
-        max-width: 90%;
-    }
-    .ex-video > video{
-        width:100%
-    }
-    .publish {
-        margin-top: 10px;
-    }
-}
-
-
-/** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px) and (max-width: 767px) {
-  
-}
-
-/** dispositivos medianos (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
-  
-}
-
-/** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-}
-
-/** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) {
-  
-}
 
 
 
