@@ -147,6 +147,11 @@ button{
     background:#fff;
     border-radius: 2%;
     margin-right: 30px;
+    padding-bottom: 20px;
+}
+.itemcon h2, .itemcon p{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .itemcon  p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -154,11 +159,20 @@ button{
     font-size: 22px;
     line-height: 1.5;
 }
+.itemcon .peq{
+font-size: 14px;
+color: #8b8b8b;
+}
+.itemcon button{
+    width:150px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
 .imagen {
     
- width: 500px;
-  height: auto;
-  /*width: 100%;*/
+
+  width: 100%;
 
     
 }
