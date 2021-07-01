@@ -42,11 +42,11 @@ button{
     font-size: 0;
     line-height: 45px;
 }
-.navbar{
+/*.navbar{
     width: 70%;
     text-align: center;
     color: #025157;
-}
+}*/
 
 .navbar li{
     margin-left: 25px;
@@ -110,6 +110,8 @@ button{
     width: 120px;
     margin-top: 10px;
 }
+.carousel-inner > .carousel-item > img
+ { width:100%; height:500px; }
  
 .contenedor {
     background: #a1d683;
@@ -209,9 +211,9 @@ color: #8b8b8b;
 
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-    .navbar, .actions{
+    /*.navbar, .actions{
         display: none; 
-    } 
+    } */
     h1{
         font-size: 30px;
     }
