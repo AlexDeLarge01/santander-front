@@ -1,0 +1,19 @@
+{
+  "name": "santanderfront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexDeLarge01/santander-front.git"
+  },
+  "author": "Alex Garay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexDeLarge01/santander-front/issues"
+  },
+  "homepage": "https://github.com/AlexDeLarge01/santander-front#readme"
+}
