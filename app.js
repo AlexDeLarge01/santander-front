@@ -1,4 +1,4 @@
-$("[data-toggle=popover]").popover();
+//$("[data-toggle=popover]").popover();
 
 // Crear proyecto de node
 
@@ -27,6 +27,8 @@ $("[data-toggle=popover]").popover();
 
 // console.log(z);
 // ------------------------------------------------------------
+
+
 
 
 
@@ -91,4 +93,3 @@ for(let i = 0; i < forms.length; i++){
   // console.log(forms[i]);
   forms[i].addEventListener("submit", sendEmail)
 }
-© 2021 GitHub, Inc.
