@@ -64,4 +64,15 @@
   font-weight: bolder;
 }
 
+@media (max-width: 575px) {
+  .blog .row {
+    display: grid;
+  }
+  .blog .row .col {
+    float: left;
+    width: 90%;
+    padding: 5% 0%;
+  }
+}
+
 /*# sourceMappingURL=output.css.map */
